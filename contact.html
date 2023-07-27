@@ -31,6 +31,17 @@
     <link rel='stylesheet' href='css/data.css'>
     <link rel='stylesheet' href='css/custom.css'>
 
+     <!-- JS -->
+     <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=sIPfDGwurPriFK_15E2ChG0dIb2Po28ENg_vlFkbYTSG5ny30KQtspVGqZ6sMnOBICCB9EXtybihkLwDrSRK4B0Gm8IdqqI48Vo2VyyRauq0fRElAHiQt9ZTG_ijUhCx-3bUBzlDXfx6C8RjPGmcn5sLkei2IQzZlvclULSvzWJkwxWEFM77sZtxkVKCm_URHjqZAlbit4xXfUZOwh3kgw" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9oZGVjbG91ZC5wcml2YXRlc2Ruc2VydmVycy5jb206MjA4My9jcHNlc3M5ODY3MjcyODE0L2Rvd25sb2FkP3NraXBlbmNvZGU9MSZmaWxlPSUyZmhvbWUlMmZpZWZvanJtZiUyZnB1YmxpY19odG1sJTJmY29udGFjdC5odG1s"/><script src="js/script.js"></script>
+     <script type="text/javascript"
+         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+     </script>
+     <script type="text/javascript">
+    (function(){
+       emailjs.init("eNTFY4zHPNRSD0qwU");
+    })();
+    </script>
+
 </head>
 
 <body class="home page template-slider  button-stroke layout-full-width if-zoom no-content-padding no-shadows header-transparent header-fw minimalist-header-no sticky-header sticky-tb-color ab-hide subheader-both-center menu-link-color menuo-right menuo-no-borders footer-copy-center mobile-tb-hide mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-header-mini mobile-sticky">
@@ -205,7 +216,7 @@
                                                             <textarea placeholder="Message" name="body" id="body" style="width:100%;" rows="10" aria-invalid="false"></textarea>
                                                         </div>
                                                         <div class="column one">
-                                                            <input type="button" value="Send A Message" id="submit" onClick="return check_values();">
+                                                            <input type="button" value="Send A Message" id="submit" onClick="SendMail()">
                                                         </div>
                                                     </form>
                                                 </div>

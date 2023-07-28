@@ -34,6 +34,8 @@ html {
 	background-position: center bottom;
 	background-size: cover
 }
+
+
 @media only screen and (min-width: 1240px) {
 	body:not(.header-simple) #Top_bar #menu {
 		display: block !important
